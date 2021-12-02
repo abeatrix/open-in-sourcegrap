@@ -1,0 +1,11 @@
+{
+  "name": "open-in-sourcegraph",
+  "version": "1.0.0",
+  "description": "Open file links from supported code hosts in Sourcegraph",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Beatrix Woo",
+  "license": "ISC"
+}

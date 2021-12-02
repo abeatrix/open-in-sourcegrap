@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "Open in Sourcegraph",
+    "version": "0.0.0",
+    "description": "Open files in Sourcegraph",
+    "action": {
+        "default_icon": "icons/favicon.png",
+        "default_title": "Open in Sourcegraph"
+    },
+    "author": "Beatrix Woo",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "contextMenus",
+        "tabs",
+        "storage"
+    ],
+    
+    "background": {
+        "service_worker": "contextmenu.js"
+    },
+    "host_permissions": [
+        "https://github.com/"
+    ],
+    "options_page": "settings/settings.html",
+    "homepage_url": "https://github.com/abeatrix/open-in-sourcegrap",
+    "offline_enabled": true,
+    "icons": {
+        "16": "icons/favicon.png",
+        "48": "icons/favicon.png",
+        "128": "icons/favicon.png"
+    }
+}
